@@ -15,7 +15,7 @@ export default function Header ()
 
 
     return(
-        <header className="flex flex-row justify-between p-4">
+        <header className="flex flex-row justify-between p-4 h-full w-full">
             <Nav></Nav>
                 <Popover className="relative">
                     <PopoverButton>Solutions
